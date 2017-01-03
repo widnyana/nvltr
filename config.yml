@@ -1,0 +1,36 @@
+core:
+  addr: "127.0.0.1"
+  port: "8088"
+  worker_num: 2
+  queue_num: 8192
+  max_notification: 100
+  mode: "release|debug"
+  ssl: false
+  cert_path: "/absolute/path/to/fullchain.pem"
+  key_path: "/absolute/path/to/privkey.pem"
+  http_proxy: ""
+  command_prefix: "!"
+  pid:
+    enabled: true
+    path: "unused.pid"
+    override: true
+
+log:
+  format: "string"
+  access_log: "stdout"
+  access_level: "debug"
+  error_log: "stderr"
+  error_level: "error"
+  hide_token: false
+
+account:
+  googlemaps: ""
+  telegram:
+    token: ""
+    baseurl: "https://your.domain.name"
+    webhook: "webhook/path"
+  twitter:
+    consumer_key: ""
+    consumer_secret: ""
+    access_token: ""
+    token_secret: ""

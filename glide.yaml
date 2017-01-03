@@ -1,0 +1,31 @@
+package: github.com/widnyana/nvltr
+import:
+- package: github.com/Sirupsen/logrus
+  version: ^0.11.0
+  subpackages:
+  - '...'
+- package: github.com/gin-gonic/gin
+  version: ^1.0.0
+  subpackages:
+  - '...'
+- package: github.com/k0kubun/pp
+  version: ^2.2.0
+  subpackages:
+  - '...'
+- package: gopkg.in/yaml.v2
+  subpackages:
+  - '...'
+- package: github.com/ChimeraCoder/anaconda
+  subpackages:
+  - '...'
+- package: gopkg.in/telegram-bot-api.v4
+  version: ^4.5.1
+- package: github.com/ChimeraCoder/anaconda
+- package: gopkg.in/yaml.v2
+- package: github.com/redite/tlbot
+- package: github.com/k0kubun/pp
+  version: ^2.2.0
+- package: github.com/technoweenie/multipartstreamer
+  version: ^1.0.1
+- package: github.com/leekchan/accounting
+  version: ^0.1.0
